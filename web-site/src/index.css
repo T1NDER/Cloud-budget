@@ -1,0 +1,39 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../src/assets/fonts/Roboto-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../src/assets/fonts/Roboto-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+  --color-bg-background: #dc3250; 
+  --color-bg-primary-overlay: rgba(220, 50, 80, 0.75);
+  --color-bg: #FAFAFA;
+  --color-text-main: #ffffff;
+  --color-text-second: #333333;
+  --color-text-third: #666666;
+  --color-text-link: #ED4C5C;
+}
+
+html, body {
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,85 @@
+.contacts-section {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.contacts-section__container {
+    max-width: 1250px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.contacts-section__left-part {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.contacts-section__title {
+    max-width: 600px;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 2.3em;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.contacts-section__description {
+    max-width: 500px;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.contacts-section__right-part {
+    flex: 0.8;
+}
+
+.contacts-section__form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacts-section__input {
+    width: 540px;
+    height: 60px;
+    border: 1px solid var(--color-text-third);
+    border-radius: 10px;
+}
+
+.contacts-section__input::placeholder {
+    padding: 0 20px;
+    color: var(--color-text-third);
+    font-family: "Roboto";
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.contacts-section__btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: var(--color-bg-background);
+    color: var(--color-text-main);
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 400;
+    transition: transform 0.15s ease, background-color 0.15s ease; 
+}
+
+.contacts-section__btn:active {
+    transform: scale(0.95);
+}
+
+

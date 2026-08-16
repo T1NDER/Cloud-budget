@@ -1,0 +1,55 @@
+.budget-section {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.budget-section__container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.budget-section__left-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.budget-section__title {
+    font-family: "Roboto";
+    font-size: 2.3em;
+    font-weight: 700;
+    max-width: 600px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.budget-section__description {
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 400;
+    max-width: 450px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.budget-section__link {
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--color-text-link);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.budget-section__link:hover {
+    color: var(--color-bg-primary-overlay);
+}
+
+.budget-section__right-part {
+   flex: 0.8;
+}

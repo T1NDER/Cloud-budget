@@ -1,0 +1,131 @@
+.header {
+  background-image: url('@assets/images/Header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 782px;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--color-bg-primary-overlay);
+}
+
+.header > * {
+  position: relative;
+  z-index: 1;
+}
+
+.header__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.header__logo-text {
+    color: var(--color-text-main);
+    font-family: "Roboto";
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.header__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header__menu li {
+    list-style: none;
+    transition: 0.3 all ease;
+}
+
+.header__menu li:hover {
+    opacity: 0.7;
+}
+
+.header__menu li a {
+    text-decoration: none;
+    color: var(--color-text-main);
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.header__enter-btn {
+    padding: 15px 30px;
+    border: 1px solid var(--color-text-main);
+    border-radius: 10px;
+    color: var(--color-text-main);
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    transition: transform 0.15s ease, background-color 0.15s ease; 
+}
+
+.header__enter-btn:active {
+    transform: scale(0.95);
+}
+
+.header__bottom-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.header__title {
+    color: var(--color-text-main);
+    font-family: "Roboto";
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.header__subtitle {
+    width: 100%;
+    max-width: 430px;
+    text-align: center;
+    color: var(--color-text-main);
+    font-family: "Roboto";
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.header__try-btn {
+    padding: 15px 30px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-text-main);
+    border-radius: 10px;
+    color: var(--color-text-link);
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    transition: transform 0.15s ease, background-color 0.15s ease; 
+}
+
+.header__try-btn:active {
+    transform: scale(0.95);
+}

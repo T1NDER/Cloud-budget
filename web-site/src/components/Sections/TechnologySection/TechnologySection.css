@@ -1,0 +1,80 @@
+.technology-section {
+    width: 100%;
+    padding: 100px 0;
+    background: var(--color-bg);
+    height: 600px;
+}
+
+.technology-section__container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.technology-section__title {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 2.3em;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.technology-section__cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.technology-section__chapter {
+    position: relative;
+    flex: 1;
+    max-width: 380px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.technology-section__chapter-number {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Roboto";
+    font-size: 6.3em;
+    font-weight: 700;
+    opacity: 0.1;
+    line-height: 1;
+    z-index: 0;
+    user-select: none;
+}
+
+.technology-section__chapter-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.technology-section__chapter-content img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.technology-section__chapter-title {
+    font-family: "Roboto";
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.technology-section__chapter-description {
+    font-family: "Roboto";
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+    max-width: 250px;
+    width: 100%;
+}
